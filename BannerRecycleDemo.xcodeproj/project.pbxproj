@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E7172FEEFD268B9EC3AB15 /* libPods-BannerRecycleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BD432114BAEED45CFF239 /* libPods-BannerRecycleDemo.a */; };
+		A01A36481ED53349004B19E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A36471ED53349004B19E4 /* main.m */; };
+		A01A364B1ED53349004B19E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A364A1ED53349004B19E4 /* AppDelegate.m */; };
+		A01A364E1ED5334A004B19E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A364D1ED5334A004B19E4 /* ViewController.m */; };
+		A01A36511ED5334A004B19E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01A364F1ED5334A004B19E4 /* Main.storyboard */; };
+		A01A36531ED5334A004B19E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01A36521ED5334A004B19E4 /* Assets.xcassets */; };
+		A01A36561ED5334A004B19E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01A36541ED5334A004B19E4 /* LaunchScreen.storyboard */; };
+		A01A36601ED53382004B19E4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A365E1ED53382004B19E4 /* HomeViewController.m */; };
+		A01A36611ED53382004B19E4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01A365F1ED53382004B19E4 /* HomeViewController.xib */; };
+		A06BEF5A1ED559EF00FB6C18 /* HomeBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A06BEF581ED559EF00FB6C18 /* HomeBannerViewCell.m */; };
+		A06BEF5B1ED559EF00FB6C18 /* HomeBannerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06BEF591ED559EF00FB6C18 /* HomeBannerViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		379BD432114BAEED45CFF239 /* libPods-BannerRecycleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BannerRecycleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D536C4E007CA965A2A7CE59 /* Pods-BannerRecycleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerRecycleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BannerRecycleDemo/Pods-BannerRecycleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A01A36431ED53349004B19E4 /* BannerRecycleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerRecycleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01A36471ED53349004B19E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A01A36491ED53349004B19E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A01A364A1ED53349004B19E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A01A364C1ED5334A004B19E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A01A364D1ED5334A004B19E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A01A36501ED5334A004B19E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A01A36521ED5334A004B19E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01A36551ED5334A004B19E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A01A36571ED5334A004B19E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01A365D1ED53382004B19E4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A01A365E1ED53382004B19E4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A01A365F1ED53382004B19E4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A06BEF571ED559EF00FB6C18 /* HomeBannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerViewCell.h; sourceTree = "<group>"; };
+		A06BEF581ED559EF00FB6C18 /* HomeBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerViewCell.m; sourceTree = "<group>"; };
+		A06BEF591ED559EF00FB6C18 /* HomeBannerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBannerViewCell.xib; sourceTree = "<group>"; };
+		D10174E703489FAB3D568A26 /* Pods-BannerRecycleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerRecycleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BannerRecycleDemo/Pods-BannerRecycleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01A36401ED53349004B19E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E7172FEEFD268B9EC3AB15 /* libPods-BannerRecycleDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C25642DD7DF5CF5A151282 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D10174E703489FAB3D568A26 /* Pods-BannerRecycleDemo.debug.xcconfig */,
+				5D536C4E007CA965A2A7CE59 /* Pods-BannerRecycleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8382D31A8FB9F9639D642A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379BD432114BAEED45CFF239 /* libPods-BannerRecycleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01A363A1ED53349004B19E4 = {
+			isa = PBXGroup;
+			children = (
+				A01A36451ED53349004B19E4 /* BannerRecycleDemo */,
+				A01A36441ED53349004B19E4 /* Products */,
+				22C25642DD7DF5CF5A151282 /* Pods */,
+				8382D31A8FB9F9639D642A10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A01A36441ED53349004B19E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01A36431ED53349004B19E4 /* BannerRecycleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01A36451ED53349004B19E4 /* BannerRecycleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A01A36491ED53349004B19E4 /* AppDelegate.h */,
+				A01A364A1ED53349004B19E4 /* AppDelegate.m */,
+				A01A364C1ED5334A004B19E4 /* ViewController.h */,
+				A01A364D1ED5334A004B19E4 /* ViewController.m */,
+				A01A365D1ED53382004B19E4 /* HomeViewController.h */,
+				A01A365E1ED53382004B19E4 /* HomeViewController.m */,
+				A01A365F1ED53382004B19E4 /* HomeViewController.xib */,
+				A06BEF571ED559EF00FB6C18 /* HomeBannerViewCell.h */,
+				A06BEF581ED559EF00FB6C18 /* HomeBannerViewCell.m */,
+				A06BEF591ED559EF00FB6C18 /* HomeBannerViewCell.xib */,
+				A01A364F1ED5334A004B19E4 /* Main.storyboard */,
+				A01A36521ED5334A004B19E4 /* Assets.xcassets */,
+				A01A36541ED5334A004B19E4 /* LaunchScreen.storyboard */,
+				A01A36571ED5334A004B19E4 /* Info.plist */,
+				A01A36461ED53349004B19E4 /* Supporting Files */,
+			);
+			path = BannerRecycleDemo;
+			sourceTree = "<group>";
+		};
+		A01A36461ED53349004B19E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A01A36471ED53349004B19E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01A36421ED53349004B19E4 /* BannerRecycleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01A365A1ED5334A004B19E4 /* Build configuration list for PBXNativeTarget "BannerRecycleDemo" */;
+			buildPhases = (
+				2107D61B41C37CA91612A435 /* [CP] Check Pods Manifest.lock */,
+				A01A363F1ED53349004B19E4 /* Sources */,
+				A01A36401ED53349004B19E4 /* Frameworks */,
+				A01A36411ED53349004B19E4 /* Resources */,
+				0341D1D97968EB4C8C15AEF0 /* [CP] Embed Pods Frameworks */,
+				CF15D554CFA246069F864E7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BannerRecycleDemo;
+			productName = BannerRecycleDemo;
+			productReference = A01A36431ED53349004B19E4 /* BannerRecycleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01A363B1ED53349004B19E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BFMe;
+				TargetAttributes = {
+					A01A36421ED53349004B19E4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EF765P94DJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A01A363E1ED53349004B19E4 /* Build configuration list for PBXProject "BannerRecycleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A01A363A1ED53349004B19E4;
+			productRefGroup = A01A36441ED53349004B19E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01A36421ED53349004B19E4 /* BannerRecycleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01A36411ED53349004B19E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01A36561ED5334A004B19E4 /* LaunchScreen.storyboard in Resources */,
+				A06BEF5B1ED559EF00FB6C18 /* HomeBannerViewCell.xib in Resources */,
+				A01A36531ED5334A004B19E4 /* Assets.xcassets in Resources */,
+				A01A36511ED5334A004B19E4 /* Main.storyboard in Resources */,
+				A01A36611ED53382004B19E4 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0341D1D97968EB4C8C15AEF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerRecycleDemo/Pods-BannerRecycleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2107D61B41C37CA91612A435 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF15D554CFA246069F864E7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerRecycleDemo/Pods-BannerRecycleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01A363F1ED53349004B19E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01A364E1ED5334A004B19E4 /* ViewController.m in Sources */,
+				A06BEF5A1ED559EF00FB6C18 /* HomeBannerViewCell.m in Sources */,
+				A01A364B1ED53349004B19E4 /* AppDelegate.m in Sources */,
+				A01A36481ED53349004B19E4 /* main.m in Sources */,
+				A01A36601ED53382004B19E4 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A01A364F1ED5334A004B19E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01A36501ED5334A004B19E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A01A36541ED5334A004B19E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01A36551ED5334A004B19E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01A36581ED5334A004B19E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A01A36591ED5334A004B19E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01A365B1ED5334A004B19E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10174E703489FAB3D568A26 /* Pods-BannerRecycleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF765P94DJ;
+				INFOPLIST_FILE = BannerRecycleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BFMe.BannerRecycleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A01A365C1ED5334A004B19E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D536C4E007CA965A2A7CE59 /* Pods-BannerRecycleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF765P94DJ;
+				INFOPLIST_FILE = BannerRecycleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BFMe.BannerRecycleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01A363E1ED53349004B19E4 /* Build configuration list for PBXProject "BannerRecycleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01A36581ED5334A004B19E4 /* Debug */,
+				A01A36591ED5334A004B19E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01A365A1ED5334A004B19E4 /* Build configuration list for PBXNativeTarget "BannerRecycleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01A365B1ED5334A004B19E4 /* Debug */,
+				A01A365C1ED5334A004B19E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01A363B1ED53349004B19E4 /* Project object */;
+}
